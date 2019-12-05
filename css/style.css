@@ -26,9 +26,14 @@ body {
 
 /* header */
 /* header_top */
-.logo {
+.header_top .logo {
   background-color: red;
   height: 50px;
+}
+
+/* header_bottom */
+.header_bottom {
+  background-color: green;
 }
 
 /* main */
