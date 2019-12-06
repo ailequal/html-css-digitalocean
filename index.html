@@ -2,123 +2,286 @@
 
 <html lang="en" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
-    <title>html-css-digitalocean</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>html-css-digitalocean</title>
+</head>
 
-  <body class="no-debug">
+<body class="no-debug">
 
-    <header class="header">
+  <header class="header">
 
-      <div class="header_top background_white">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-2 visible-lg">
-              <div class="logo_big">
-                <a href="#">
-                  <img src="img/logo.png" alt="DigitalOcean">
-                </a>
-              </div>
+    <div class="header_top background_white">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-2 visible-lg">
+            <div class="logo_big">
+              <a href="#">
+                <img src="img/logo.png" alt="DigitalOcean">
+              </a>
             </div>
-            <div class="col-xs-2 hidden-lg">
-              <div class="logo_small">
-                <a href="#">
-                  <img src="img/logo-small.svg" alt="DigitalOcean">
-                </a>
-              </div>
+          </div>
+          <div class="col-xs-2 hidden-lg">
+            <div class="logo_small">
+              <a href="#">
+                <img src="img/logo-small.svg" alt="DigitalOcean">
+              </a>
             </div>
-            <div class="col-xs-10">
-              <div class="row">
-                <nav class="left_nav col-lg-7 visible-lg">
-                  <ul>
-                    <li><a href="#">Products <span class="glyphicon glyphicon-menu-down"></span></a></li>
-                    <li><a href="#">Customers</a></li>
-                    <li><a href="#">Community <span class="glyphicon glyphicon-menu-down"></span></a></li>
-                    <li><a href="#">Pricing</a></li>
-                  </ul>
-                </nav>
-                <nav class="right_nav col-lg-5 visible-lg">
-                  <ul>
-                    <li><a href="#">Docs</a></li>
-                    <li><a href="#">Support <span class="glyphicon glyphicon-menu-down"></span></a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a class="btn btn_sign_up" href="#">Sign Up</a></li>
-                  </ul>
-                </nav>
-                <nav class="btn_hamburger col-xs-12 hidden-lg">
-                  <i class="fas fa-bars"></i>
-                </nav>
-              </div>
+          </div>
+          <div class="col-xs-10">
+            <div class="row">
+              <nav class="left_nav col-lg-7 visible-lg">
+                <ul>
+                  <li><a href="#">Products <span class="glyphicon glyphicon-menu-down"></span></a></li>
+                  <li><a href="#">Customers</a></li>
+                  <li><a href="#">Community <span class="glyphicon glyphicon-menu-down"></span></a></li>
+                  <li><a href="#">Pricing</a></li>
+                </ul>
+              </nav>
+              <nav class="right_nav col-lg-5 visible-lg">
+                <ul>
+                  <li><a href="#">Docs</a></li>
+                  <li><a href="#">Support <span class="glyphicon glyphicon-menu-down"></span></a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a class="btn btn_sign_up" href="#">Sign Up</a></li>
+                </ul>
+              </nav>
+              <nav class="btn_hamburger col-xs-12 hidden-lg">
+                <i class="fas fa-bars"></i>
+              </nav>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="header_bottom">
-        <div class="container">
+    <div class="header_bottom">
+      <div class="container">
+        <div class="box_header_bottom">
           <div class="row">
-            <div class="col-md-6">
-              <h1>The simplest cloud platform for developers & teams</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="col-md-7">
+              <div class="jumbotron_text">
+                <h1>The simplest cloud platform for developers & teams</h1>
+                <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We maek managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+              </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-5 col-md-offset-0">
               <div class="box_login">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>Deploy your app in seconds.</h2>
+                <h2>Get started now.</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1"></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1"></label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                </form>
+                <a class="btn btn_create" href="#">Create your account</a>
+                <a class="btn btn_google" href="#"><img src="img/google-icon.png" alt="Google">Sign up with Google</a>
+                <p>By signing up you agree to the <a>Terms of Service</a>.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-    </header>
+  </header>
 
-    <main class="main">
+  <main class="main">
 
-      <section class="customers">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2>Innovative businesses trust digitalocean</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="box_img">
-                <img src="img/shark.png" alt="">
-              </div>
-              <div class="box_img">
-                <img src="img/shark.png" alt="">
-              </div>
-              <div class="box_img">
-                <img src="img/shark.png" alt="">
-              </div>
-              <div class="box_img">
-                <img src="img/shark.png" alt="">
-              </div>
-            </div>
-          </div>
+    <section class="customers">
+      <div class="container">
+        <div class="row">
           <div class="col-xs-12">
+            <h2>Innovative businesses trust digitalocean</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="box_img">
+              <img src="img/shark.png" alt="">
+            </div>
+            <div class="box_img">
+              <img src="img/shark.png" alt="">
+            </div>
+            <div class="box_img">
+              <img src="img/shark.png" alt="">
+            </div>
+            <div class="box_img">
+              <img src="img/shark.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <a href="#">Link</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="deploy">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Deploy and scale seamlessly</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <ul>
+              <li>Item</li>
+              <li>Item</li>
+              <li>Item</li>
+              <li>Item</li>
+              <li>Item</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <div class="debug-box"></div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="debug-box"></div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="debug-box"></div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="debug-box"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="design">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Designed for developers</h2>
+            <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+            <img src="img/shark.png" alt="">
+            <p>Create compute servers in 55 seconds or less.</p>
+            <div class="dots">dots</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>The features your business needs</h2>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="box_features">
+              <img src="img/shark.png" alt="">
+              <p>Predictable pricing</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#">Link</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="box_features">
+              <img src="img/shark.png" alt="">
+              <p>Predictable pricing</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#">Link</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="box_features">
+              <img src="img/shark.png" alt="">
+              <p>Predictable pricing</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="world">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Service your customers around the world from 12 regions.</h2>
+          </div>
+          <div class="col-xs-12 col-lg-6">
+            <div class="box_world">
+              <p>City</p>
+              <p>City</p>
+              <p>City</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-6">
+            <div class="box_world">
+              <p>City</p>
+              <p>City</p>
+              <p>City</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="teams">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Development teams love DigitalOcean</h2>
+            <div class="box_teams">
+              <img src="img/shark.png" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <span>Citazione</span>
+              <a href="#">Link</a>
+            </div>
+            <div class="dots">dots</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="start">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>Get started now.</p>
             <a href="#">Link</a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="deploy">
-        <div class="container">
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-4">
+          <p>&copy; 2020 Elia Pari - All rights reserved</p>
+          <p>Proudly made in Italy</p>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <div class="col-xs-12 col-lg-8">
           <div class="row">
-            <div class="col-xs-12">
-              <h2>Deploy and scale seamlessly</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-6 col-lg-3">
               <ul>
                 <li>Item</li>
                 <li>Item</li>
@@ -127,185 +290,40 @@
                 <li>Item</li>
               </ul>
             </div>
-            <div class="col-xs-12 col-md-8">
-              <div class="row">
-                <div class="col-xs-12 col-md-6">
-                  <div class="debug-box"></div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="debug-box"></div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="debug-box"></div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="debug-box"></div>
-                </div>
-              </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+              <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
 
-      <section class="design">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2>Designed for developers</h2>
-              <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
-              <img src="img/shark.png" alt="">
-              <p>Create compute servers in 55 seconds or less.</p>
-              <div class="dots">dots</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="features">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2>The features your business needs</h2>
-            </div>
-            <div class="col-xs-12 col-md-4">
-              <div class="box_features">
-                <img src="img/shark.png" alt="">
-                <p>Predictable pricing</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#">Link</a>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-4">
-              <div class="box_features">
-                <img src="img/shark.png" alt="">
-                <p>Predictable pricing</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#">Link</a>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-4">
-              <div class="box_features">
-                <img src="img/shark.png" alt="">
-                <p>Predictable pricing</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#">Link</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="world">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2>Service your customers around the world from 12 regions.</h2>
-            </div>
-            <div class="col-xs-12 col-lg-6">
-              <div class="box_world">
-                <p>City</p>
-                <p>City</p>
-                <p>City</p>
-              </div>
-            </div>
-            <div class="col-xs-12 col-lg-6">
-              <div class="box_world">
-                <p>City</p>
-                <p>City</p>
-                <p>City</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="teams">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2>Development teams love DigitalOcean</h2>
-              <div class="box_teams">
-                <img src="img/shark.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <span>Citazione</span>
-                <a href="#">Link</a>
-              </div>
-              <div class="dots">dots</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="start">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-12">
-              <p>Get started now.</p>
-              <a href="#">Link</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-lg-4">
-            <p>&copy; 2020 Elia Pari - All rights reserved</p>
-            <p>Proudly made in Italy</p>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-youtube"></i>
-            <i class="fab fa-linkedin"></i>
-          </div>
-          <div class="col-xs-12 col-lg-8">
-            <div class="row">
-              <div class="col-xs-12 col-md-6 col-lg-3">
-                <ul>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                </ul>
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-3">
-                <ul>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                </ul>
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-3">
-                <ul>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                </ul>
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-3">
-                <ul>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                  <li>Item</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-  </body>
+</body>
 
 </html>
