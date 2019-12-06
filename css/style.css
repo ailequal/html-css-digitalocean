@@ -83,9 +83,23 @@ a {
 
 /* header */
 /* header_top */
-.header_top .logo {
-  background-color: red;
-  height: 50px;
+.header_top .row {
+  line-height: 30px;
+}
+
+.header_top .logo_big,
+.header_top .logo_small {
+  height: 29px;
+}
+
+.header_top .logo_big img,
+.header_top .logo_small img {
+  height: 100%;
+}
+
+.header_top a {
+  margin-left: 24px;
+  /* vertical-align: middle; */
 }
 
 /* header_bottom */
