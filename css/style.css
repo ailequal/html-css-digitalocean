@@ -55,6 +55,7 @@ h1 {
 
 h2 {
   font-size: 36px;
+  font-weight: 700;
 }
 
 h3 {
@@ -193,7 +194,6 @@ a {
 
 .header_bottom .box_login h2 {
   font-size: 30px;
-  font-weight: 700;
 }
 
 .header_bottom .box_login h2:nth-child(2) {
@@ -257,7 +257,6 @@ a {
 
 .customers h2 {
   font-size: 14px;
-  font-weight: 700;
   color: rgba(3,27,78,.7);
   text-transform: uppercase;
 }
@@ -296,6 +295,20 @@ a {
 .customers a:focus,
 .customers a:hover {
   text-decoration: none;
+}
+
+/* deploy */
+.deploy .deploy_text {
+  text-align: center;
+}
+
+.deploy ul {
+  border-left: 1px solid rgb(229, 232, 237);
+  padding-left: 8px;
+}
+
+.deploy li {
+  padding: 10px 0;
 }
 
 /* footer */
