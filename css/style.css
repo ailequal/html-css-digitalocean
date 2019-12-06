@@ -26,7 +26,7 @@
 
 /* general */
 body {
-  /* margin-top: 46px; */
+  margin-top: 60px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
@@ -85,18 +85,20 @@ a {
 /* header */
 /* header_top */
 .header_top {
-  /* position: fixed;
+  position: fixed;
   top: 0;
-  left: 0; */
+  left: 0;
+  width: 100%;
+  z-index: 3;
 }
 
 .header_top .row {
-  line-height: 45px;
+  line-height: 60px;
 }
 
 .header_top .logo_big,
 .header_top .logo_small {
-  height: 45px;
+  height: 44px;
 }
 
 .header_top .logo_big img,
@@ -128,6 +130,13 @@ a {
   text-decoration: none;
   color: #0069ff;
 }
+
+.header_top a:active span,
+.header_top a:focus span,
+.header_top a:hover span {
+  color: #031b4e;
+}
+
 
 .header_top .right_nav {
   text-align: right;
