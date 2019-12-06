@@ -60,6 +60,7 @@ h2 {
 
 h3 {
   font-size: 18px;
+  font-weight: 700;
 }
 
 h1, h2, h3, h4, a {
@@ -81,6 +82,10 @@ a {
 
 .background_grey {
   background-color: #f3f5f9;
+}
+
+.padding_top_bottom_60 {
+  padding: 60px 0;
 }
 
 /* header */
@@ -167,10 +172,6 @@ a {
   background-size: cover;
 }
 
-.header_bottom .box_header_bottom {
-  margin: 64px 0;
-}
-
 .header_bottom .jumbotron_text {
   margin: 30px 0;
 }
@@ -251,7 +252,6 @@ a {
 /* main */
 /* customers */
 .customers {
-  padding: 60px 0;
   text-align: center;
 }
 
@@ -300,6 +300,14 @@ a {
 /* deploy */
 .deploy .deploy_text {
   text-align: center;
+}
+
+.deploy .container_extra {
+  margin: 30px 50px 0 150px;
+}
+
+.deploy .box_deploy {
+  margin-top: 10px;
 }
 
 .deploy ul {
