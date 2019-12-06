@@ -30,6 +30,57 @@ body {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 46px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 54px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 62px;
+  }
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, a {
+  color: #031b4e;
+}
+
+p {
+  font-size: 20px;
+  color: rgba(3,27,78,.7);
+}
+
+a {
+  font-size: 14px;
+}
+
+.background_white {
+  background-color: #ffffff;
+}
+
+.background_grey {
+  background-color: #f3f5f9;
+}
+
 /* header */
 /* header_top */
 .header_top .logo {
