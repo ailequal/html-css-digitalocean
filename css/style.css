@@ -262,12 +262,14 @@ a {
   text-transform: uppercase;
 }
 
-.customers .box_img {
+.customers .list_img li {
   display: inline-block;
+  margin: 10px;
+  width: 150px;
 }
 
-.customers .box_img img {
-  height: 50px;
+.customers .list_img img {
+  width: 100%;
 }
 
 .customers a {
