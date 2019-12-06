@@ -250,12 +250,35 @@ a {
 
 /* main */
 /* customers */
+.customers {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.customers h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(3,27,78,.7);
+  text-transform: uppercase;
+}
+
 .customers .box_img {
   display: inline-block;
 }
 
 .customers .box_img img {
   height: 50px;
+}
+
+.customers a {
+  font-size: 16px;
+  color: #0069ff;
+}
+
+.customers a:active,
+.customers a:focus,
+.customers a:hover {
+  text-decoration: none;
 }
 
 /* footer */
