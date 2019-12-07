@@ -591,3 +591,46 @@ a {
 }
 
 /* footer */
+.footer {
+  background-color: #010e28;
+}
+
+.footer p {
+  font-size: 14px;
+  color: rgb(140, 147, 156);
+}
+
+.footer img {
+  margin-bottom: 10px;
+}
+
+.footer i {
+  margin: 0 5px;
+  font-size: 20px;
+  color: rgb(140, 147, 156);
+}
+
+.footer i:active,
+.footer i:focus,
+.footer i:hover {
+  color: #ffffff;
+}
+
+.footer .site_map li {
+  margin: 5px 0;
+}
+
+.footer .site_map span {
+  color: #ffffff;
+}
+
+.footer .site_map a {
+  color: rgb(140, 147, 156);
+  text-decoration: none;
+}
+
+.footer .site_map a:active,
+.footer .site_map a:focus,
+.footer .site_map a:hover {
+  color: #ffffff;
+}
