@@ -26,6 +26,7 @@
 
 /* general */
 body {
+  min-width: 300px;
   margin-top: 60px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -465,6 +466,101 @@ a {
 .world a:hover {
   text-decoration: none;
   color: #005fe6;
+}
+
+/* teams */
+.teams {
+  text-align: center;
+}
+
+.teams h2 {
+  margin-bottom: 50px;
+}
+
+.teams .container_extra {
+  position: relative;
+  width: 80%;
+  min-width: 300px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .teams .container_extra {
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .teams .container_extra {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teams .container_extra {
+    width: 650px;
+  }
+}
+
+.teams .box_teams::before {
+  position: absolute;
+  top: 50%;
+  left: -6%;
+  transform: translate(-50%, -50%);
+  content: '\f053';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.teams .box_teams::after {
+  position: absolute;
+  top: 50%;
+  left: 106%;
+  transform: translate(-50%, -50%);
+  content: '\f054';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.teams img {
+  margin-bottom: 20px;
+}
+
+.teams .box_teams > span {
+  display: block;
+  color: rgba(3,27,78,.7);
+}
+
+.teams .box_teams > span:nth-child(3) {
+  font-weight: 700;
+}
+
+.teams .box_teams div {
+  margin-top: 30px;
+}
+
+.teams a {
+  text-decoration: none;
+  color: #0069ff;
+}
+
+.teams .dots {
+  margin-top: 30px;
+}
+
+.teams .dots li {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #0069ff;
+  border-radius: 50%;
+}
+
+.teams .dots li:first-child {
+  background-color: #0069ff;
 }
 
 /* footer */
