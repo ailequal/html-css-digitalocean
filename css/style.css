@@ -76,6 +76,16 @@ a {
   font-size: 14px;
 }
 
+.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutter > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .background_white {
   background-color: #ffffff;
 }
@@ -403,6 +413,58 @@ a {
 .features a:focus,
 .features a:hover {
   text-decoration: none;
+}
+
+/* world */
+.world {
+  padding: 100px 0;
+  background-image: url(../img/data-center-map.svg);
+  background-color: rgb(3, 27, 78);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.world .container_extra {
+  margin-top: 60px;
+}
+
+.world h2 {
+  text-align: center;
+}
+
+.world h2,
+.world p {
+  color: #ffffff;
+}
+
+.world p,
+.world a {
+  font-size: 13px;
+}
+
+.world p {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.world p:not(:last-child) {
+  border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
+.world .cities > p {
+  color: rgb(164, 173, 189);
+}
+
+.world a {
+  color: #00d7d2;
+}
+
+.world a:active,
+.world a:focus,
+.world a:hover {
+  text-decoration: none;
+  color: #005fe6;
 }
 
 /* footer */
