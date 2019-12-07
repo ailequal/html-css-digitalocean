@@ -563,4 +563,31 @@ a {
   background-color: #0069ff;
 }
 
+/* start */
+.start {
+  background-image: url(../img/ocean.jpg);
+  background-repeat: no-repeat;
+  background-position: -150px bottom;
+  text-align: center;
+}
+
+.start h2 {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.start a {
+  margin-top: 20px;
+  padding: 5px 16px;
+  background-color: #ffffff;
+  color: #0069ff;
+}
+
+.start a:active,
+.start a:focus,
+.start a:hover {
+  background-color: hsla(0,0%,100%,.8);
+  color: #0069ff;
+}
+
 /* footer */
