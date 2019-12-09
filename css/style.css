@@ -106,6 +106,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
+  box-shadow: 0 2px 4px 0;
   z-index: 3;
 }
 
@@ -611,6 +612,7 @@ a {
   margin-right: 20px;
   padding: 10px;
   border-radius: 5px;
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -619,14 +621,16 @@ a {
   }
 }
 
-.bot .bot_text .triangle  {
-  display: block;
-  width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-bottom: 50px solid transparent;
-  border-left: 50px solid red;
-  box-shadow: 0 0 0 1px red;
+.bot .bot_text .triangle {
+  position: absolute;
+  top: 50%;
+  right: -5.5px;
+  transform: translateY(-50%) rotate(225deg);
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  background-color: #ffffff;
 }
 
 .bot .bot_text p {
@@ -642,10 +646,10 @@ a {
 }
 
 .bot .bot_icon .notification {
+  display: inline-block;
   position: absolute;
   top: -12px;
   right: -12px;
-  display: inline-block;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -657,7 +661,6 @@ a {
   display: inline-block;
   top: -12px;
   right: -12px;
-  display: inline-block;
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -668,10 +671,10 @@ a {
 }
 
 .bot .bot_icon .bot_pic {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   text-align: center;
-  line-height: 55px;
+  line-height: 50px;
 }
 
 .bot .bot_icon .bot_pic img {
