@@ -619,20 +619,15 @@ a {
   }
 }
 
-/* .bot .bot_text:after {
-	content: '';
-	position: absolute;
-	right: 0;
-	top: 50%;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-left-color: #ffffff;
-	border-right: 0;
-	border-bottom: 0;
-	margin-top: -10px;
-	margin-right: -20px;
-} */
+.bot .bot_text .triangle  {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid red;
+  box-shadow: 0 0 0 1px red;
+}
 
 .bot .bot_text p {
   margin: 0;
@@ -642,12 +637,11 @@ a {
 
 .bot .bot_icon {
   position: relative;
-  height: 55px;
   border-radius: 5px;
   background-color: #0069ff;
 }
 
-.bot .bot_icon div {
+.bot .bot_icon .notification {
   position: absolute;
   top: -12px;
   right: -12px;
@@ -659,7 +653,7 @@ a {
   border: 1px solid #000000;
 }
 
-.bot .bot_icon span {
+.bot .bot_icon .notification span {
   display: inline-block;
   top: -12px;
   right: -12px;
@@ -673,8 +667,16 @@ a {
   font-size: 14px;
 }
 
-.bot .bot_icon img {
-  height: 100%;
+.bot .bot_icon .bot_pic {
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+}
+
+.bot .bot_icon .bot_pic img {
+  width: 100%;
+  vertical-align: middle;
 }
 
 /* footer */
