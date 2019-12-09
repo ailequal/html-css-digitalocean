@@ -590,6 +590,93 @@ a {
   color: #0069ff;
 }
 
+/* bot */
+.bot {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 3;
+}
+
+.bot .bot_text,
+.bot .bot_icon {
+  display: inline-block;
+  border: 1px solid #000000;
+  vertical-align: middle;
+}
+
+.bot .bot_text {
+  position: relative;
+  width: 150px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .bot .bot_text {
+    width: 300px;
+  }
+}
+
+/* .bot .bot_text:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: #ffffff;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-right: -20px;
+} */
+
+.bot .bot_text p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bot .bot_icon {
+  position: relative;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #0069ff;
+}
+
+.bot .bot_icon div {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px solid #000000;
+}
+
+.bot .bot_icon span {
+  display: inline-block;
+  top: -12px;
+  right: -12px;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.bot .bot_icon img {
+  height: 100%;
+}
+
 /* footer */
 .footer {
   background-color: #010e28;
