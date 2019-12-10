@@ -451,7 +451,14 @@ a {
 
 .world p,
 .world a {
-  font-size: 13px;
+  font-size: 11.5px;
+}
+
+@media screen and (min-width: 768px) {
+  .world p,
+  .world a {
+    font-size: 13px;
+  }
 }
 
 .world p {
