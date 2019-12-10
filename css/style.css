@@ -497,7 +497,7 @@ a {
 .teams .container_extra {
   position: relative;
   width: 80%;
-  min-width: 300px;
+  min-width: 200px;
   margin: auto;
   padding: 50px 0;
 }
@@ -543,7 +543,14 @@ a {
 }
 
 .teams img {
+  width: 60%;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .teams img {
+    width: auto;
+  }
 }
 
 .teams .box_teams > span {
